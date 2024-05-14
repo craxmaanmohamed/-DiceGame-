@@ -1,0 +1,36 @@
+.dicecontainer {
+   display: flex;
+   height: 70vh;
+   justify-content: center;
+   align-items: center;
+
+}
+.diceMdContainer {
+    display: flex;
+    gap: 20px;
+    background-color: hotpink;
+    padding: 70px 30px;
+    border-radius: 10px;
+    
+}
+.imgBtn{
+    height: 250px;
+    width: 250px;
+}
+.imgBtn img{
+    width: 100%;
+}
+.imgBtn button{
+    background-color: white;
+    color: black ;
+    letter-spacing: 1px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    width: 100%;
+    transition: all .5s;
+}
+.imgBtn button:hover{
+    scale: 1.02;
+}
